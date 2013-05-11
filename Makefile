@@ -1,4 +1,6 @@
+AIP=nano-2.2.5.aip
+
 all: installer
 
-installer: nano-2.2.5.aip
-	AdvancedInstaller /build nano-2.2.5.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
